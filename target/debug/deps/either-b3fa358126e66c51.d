@@ -1,0 +1,11 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/either-b3fa358126e66c51.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libeither-b3fa358126e66c51.rlib: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libeither-b3fa358126e66c51.rmeta: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs
+
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/lib.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/serde_untagged_optional.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/iterator.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/either-1.15.0/src/into_either.rs:

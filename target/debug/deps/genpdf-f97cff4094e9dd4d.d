@@ -1,0 +1,12 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/genpdf-f97cff4094e9dd4d.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/wrap.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements/images.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/error.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/fonts.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/render.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/style.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libgenpdf-f97cff4094e9dd4d.rmeta: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/wrap.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements/images.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/error.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/fonts.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/render.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/style.rs
+
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/lib.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/wrap.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/elements/images.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/error.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/fonts.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/render.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/genpdf-0.2.0/src/style.rs:

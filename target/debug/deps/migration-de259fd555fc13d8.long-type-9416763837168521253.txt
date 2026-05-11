@@ -1,0 +1,2 @@
+m20260510_000001_add_dv_to_clients::Migration: sea_orm_migration::MigrationTrait
+m20260505_000001_add_scope_to_quotation_items::Migration

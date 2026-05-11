@@ -1,0 +1,2 @@
+fn(axum::extract::State<Arc<AppState>>, Claims, axum::Json<CreateQuotationRequest>) -> impl std::future::Future<Output = Result<axum::Json<JsonValue>, AppError>> {create_quotation}
+fn(axum::extract::State<Arc<AppState>>, Claims, axum::Json<CreateQuotationRequest>) -> impl std::future::Future<Output = Result<axum::Json<JsonValue>, AppError>> {create_quotation}: Handler<_, _>

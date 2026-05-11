@@ -1,0 +1,14 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/thiserror-edbfbcec4c352374.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/build/thiserror-c63581d6cefff569/out/private.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libthiserror-edbfbcec4c352374.rlib: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/build/thiserror-c63581d6cefff569/out/private.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libthiserror-edbfbcec4c352374.rmeta: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs /Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/build/thiserror-c63581d6cefff569/out/private.rs
+
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/lib.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/aserror.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/display.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/var.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.18/src/private.rs:
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/build/thiserror-c63581d6cefff569/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/build/thiserror-c63581d6cefff569/out

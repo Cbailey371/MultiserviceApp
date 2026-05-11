@@ -1,0 +1,19 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/migration-de259fd555fc13d8.d: migration/src/lib.rs migration/src/m20260429_000001_create_users.rs migration/src/m20260429_000002_create_clients.rs migration/src/m20260429_000003_create_assets.rs migration/src/m20260429_000004_create_catalog.rs migration/src/m20260429_000005_create_quotations.rs migration/src/m20260429_000006_create_invoices.rs migration/src/m20260429_000007_create_contracts.rs migration/src/m20260429_000008_create_work_orders.rs migration/src/m20260429_000009_create_audit_log.rs migration/src/m20260429_000010_create_settings.rs migration/src/m20260505_000001_add_scope_to_quotation_items.rs migration/src/m20260510_000001_add_dv_to_clients.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libmigration-de259fd555fc13d8.rlib: migration/src/lib.rs migration/src/m20260429_000001_create_users.rs migration/src/m20260429_000002_create_clients.rs migration/src/m20260429_000003_create_assets.rs migration/src/m20260429_000004_create_catalog.rs migration/src/m20260429_000005_create_quotations.rs migration/src/m20260429_000006_create_invoices.rs migration/src/m20260429_000007_create_contracts.rs migration/src/m20260429_000008_create_work_orders.rs migration/src/m20260429_000009_create_audit_log.rs migration/src/m20260429_000010_create_settings.rs migration/src/m20260505_000001_add_scope_to_quotation_items.rs migration/src/m20260510_000001_add_dv_to_clients.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libmigration-de259fd555fc13d8.rmeta: migration/src/lib.rs migration/src/m20260429_000001_create_users.rs migration/src/m20260429_000002_create_clients.rs migration/src/m20260429_000003_create_assets.rs migration/src/m20260429_000004_create_catalog.rs migration/src/m20260429_000005_create_quotations.rs migration/src/m20260429_000006_create_invoices.rs migration/src/m20260429_000007_create_contracts.rs migration/src/m20260429_000008_create_work_orders.rs migration/src/m20260429_000009_create_audit_log.rs migration/src/m20260429_000010_create_settings.rs migration/src/m20260505_000001_add_scope_to_quotation_items.rs migration/src/m20260510_000001_add_dv_to_clients.rs
+
+migration/src/lib.rs:
+migration/src/m20260429_000001_create_users.rs:
+migration/src/m20260429_000002_create_clients.rs:
+migration/src/m20260429_000003_create_assets.rs:
+migration/src/m20260429_000004_create_catalog.rs:
+migration/src/m20260429_000005_create_quotations.rs:
+migration/src/m20260429_000006_create_invoices.rs:
+migration/src/m20260429_000007_create_contracts.rs:
+migration/src/m20260429_000008_create_work_orders.rs:
+migration/src/m20260429_000009_create_audit_log.rs:
+migration/src/m20260429_000010_create_settings.rs:
+migration/src/m20260505_000001_add_scope_to_quotation_items.rs:
+migration/src/m20260510_000001_add_dv_to_clients.rs:

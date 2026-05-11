@@ -1,0 +1,10 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/sea_query_derive-e1838766879d414e.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/mod.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/attr.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/error.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/path.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/write_arm.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libsea_query_derive-e1838766879d414e.dylib: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/mod.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/attr.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/error.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/path.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/write_arm.rs
+
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/lib.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/mod.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/attr.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/error.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/path.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sea-query-derive-0.4.3/src/iden/write_arm.rs:

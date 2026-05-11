@@ -1,0 +1,55 @@
+{
+  "name": "MultiService Pro Dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates",
+        "vadimcn.vscode-lldb",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "formulahendry.auto-rename-tag",
+        "ms-azuretools.vscode-docker",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[rust]": {
+          "editor.defaultFormatter": "rust-lang.rust-analyzer"
+        },
+        "rust-analyzer.check.command": "clippy",
+        "sqltools.connections": [
+          {
+            "name": "MultiService DB",
+            "driver": "PostgreSQL",
+            "server": "db",
+            "port": 5432,
+            "database": "multiservice_db",
+            "username": "multiservice",
+            "password": "multiservice_dev"
+          }
+        ]
+      }
+    }
+  },
+
+  "forwardPorts": [3001, 5173, 5432],
+
+  "postStartCommand": "cd /workspace && echo '🚀 MultiService Pro Dev Container Ready!'",
+
+  "remoteUser": "vscode"
+}

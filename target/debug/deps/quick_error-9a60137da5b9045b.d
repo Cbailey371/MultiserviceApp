@@ -1,0 +1,7 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/quick_error-9a60137da5b9045b.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quick-error-2.0.1/src/lib.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libquick_error-9a60137da5b9045b.rlib: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quick-error-2.0.1/src/lib.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libquick_error-9a60137da5b9045b.rmeta: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quick-error-2.0.1/src/lib.rs
+
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quick-error-2.0.1/src/lib.rs:

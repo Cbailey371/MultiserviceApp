@@ -1,0 +1,13 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/qoi-7d0393155507da53.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/decode.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/encode.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/error.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/header.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/pixel.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/types.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/utils.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/consts.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libqoi-7d0393155507da53.rmeta: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/decode.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/encode.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/error.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/header.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/pixel.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/types.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/utils.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/consts.rs
+
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/lib.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/decode.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/encode.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/error.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/header.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/pixel.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/types.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/utils.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/qoi-0.4.1/src/consts.rs:

@@ -1,0 +1,9 @@
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/serde_path_to_error-fc5bd53cd97ba480.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/de.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/path.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/ser.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/wrap.rs
+
+/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libserde_path_to_error-fc5bd53cd97ba480.rmeta: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/de.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/path.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/ser.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/wrap.rs
+
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/lib.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/de.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/path.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/ser.rs:
+/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_path_to_error-0.1.20/src/wrap.rs:
