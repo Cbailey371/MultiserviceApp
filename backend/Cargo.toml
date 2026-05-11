@@ -1,0 +1,65 @@
+[package]
+name = "multiservice-backend"
+version = "0.1.0"
+edition = "2021"
+description = "MultiService Pro — Backend API for Maintenance Management"
+
+[dependencies]
+# Web Framework
+axum = { version = "0.7", features = ["macros", "multipart"] }
+axum-extra = { version = "0.9", features = ["typed-header"] }
+tower = "0.5"
+tower-http = { version = "0.5", features = ["cors", "trace", "fs"] }
+tokio = { version = "1", features = ["full"] }
+
+# Database (SeaORM)
+sea-orm = { version = "1.0", features = [
+    "sqlx-postgres",
+    "runtime-tokio-rustls",
+    "macros",
+    "with-chrono",
+    "with-json",
+    "with-uuid",
+] }
+
+# Auth
+jsonwebtoken = "9"
+argon2 = "0.5"
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Date/Time
+chrono = { version = "0.4", features = ["serde"] }
+
+# UUID
+uuid = { version = "1", features = ["v4", "serde"] }
+
+# Environment / Config
+dotenvy = "0.15"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Error handling
+thiserror = "1"
+anyhow = "1"
+
+# Validation
+validator = { version = "0.18", features = ["derive"] }
+rust_decimal = "1.41.0"
+image = "0.25"
+
+# PDF Generation
+genpdf = { version = "0.2", features = ["images"] }
+
+# Email
+lettre = { version = "0.11", default-features = false, features = ["tokio1-rustls-tls", "smtp-transport", "builder"] }
+
+# Excel Export
+rust_xlsxwriter = "0.77"
+
+# Scheduler
+tokio-cron-scheduler = "0.10"
