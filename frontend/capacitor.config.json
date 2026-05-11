@@ -1,0 +1,9 @@
+{
+  "appId": "com.cbtech.multiservice",
+  "appName": "MultiServicePro",
+  "webDir": "dist",
+  "server": {
+    "url": "https://multiservicesib.cbtechpty.com",
+    "cleartext": true
+  }
+}

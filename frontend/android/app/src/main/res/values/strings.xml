@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MultiServicePro</string>
+    <string name="title_activity_main">MultiServicePro</string>
+    <string name="package_name">com.cbtech.multiservice</string>
+    <string name="custom_url_scheme">com.cbtech.multiservice</string>
+</resources>
