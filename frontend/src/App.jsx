@@ -7,7 +7,7 @@ import {
   LayoutDashboard, Users as UsersIcon, Wrench, 
   FileText, FileArchive, Calendar as CalendarIcon, 
   Settings as SettingsIcon, Tags, UserCog, BarChart3, 
-  Sun, Moon, Search, LogOut 
+  Sun, Moon, Search, LogOut, Menu, X
 } from 'lucide-react';
 
 // Services
@@ -33,6 +33,7 @@ function App() {
   const [user, setUser] = useState(api.getUser());
   const [ready, setReady] = useState(false);
   const [theme, setTheme] = useState(localStorage.getItem('ms_theme') || 'dark');
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
     // Listen for auth changes
@@ -83,9 +84,17 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className={`app-layout ${theme}`}>
+      <div className={`app-layout ${theme} ${sidebarOpen ? 'sidebar-open' : ''}`}>
+        {/* Mobile Backdrop */}
+        {sidebarOpen && (
+          <div 
+            className="sidebar-backdrop" 
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
+
         {/* Sidebar */}
-        <aside className="sidebar">
+        <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="sidebar-logo">
             <div style={{ padding: '4px', borderRadius: '4px', background: 'var(--color-primary)', color: '#fff', fontSize: '10px', fontWeight: 'bold' }}>MS</div>
             <div>
@@ -100,7 +109,8 @@ function App() {
                 key={item.path}
                 to={item.path}
                 end={item.path === '/'}
-                className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+                 className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+                onClick={() => setSidebarOpen(false)}
               >
                 <item.icon size={20} className="icon" strokeWidth={1.5} />
                 <span>{item.label}</span>
@@ -114,6 +124,7 @@ function App() {
                 key={item.path}
                 to={item.path}
                 className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}
+                onClick={() => setSidebarOpen(false)}
               >
                 <item.icon size={20} className="icon" strokeWidth={1.5} />
                 <span>{item.label}</span>
@@ -126,9 +137,16 @@ function App() {
         <div style={{ flex: 1 }}>
           {/* Header */}
           <header className="main-header">
-            <div className="header-search">
-              <Search size={18} color="var(--color-on-surface-muted)" />
-              <input type="text" placeholder="Buscar órdenes, clientes, facturas..." />
+            <div className="header-left">
+              <button 
+                className="mobile-menu-btn" 
+                onClick={() => setSidebarOpen(!sidebarOpen)}
+              >
+                {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+              <div className="header-title">
+                {navItems.find(i => window.location.pathname === i.path)?.label || 'Panel'}
+              </div>
             </div>
             
             <div className="header-actions">
