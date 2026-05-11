@@ -6,7 +6,7 @@ use std::env;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    if args.len() < 3 {
+    if args.len() < 2 {
         println!("Uso: cargo run --example create_hash <password>");
         return;
     }
