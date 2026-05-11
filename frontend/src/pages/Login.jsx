@@ -1,7 +1,8 @@
 import { useState } from 'react';
+import { Sun, Moon } from 'lucide-react';
 import api from '../services/api';
 
-export default function Login({ onLogin }) {
+export default function Login({ onLogin, theme, toggleTheme }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -86,6 +87,24 @@ export default function Login({ onLogin }) {
             {loading ? '⏳ Iniciando...' : 'Iniciar Sesión'}
           </button>
         </form>
+
+        <div style={{
+          marginTop: 'var(--space-8)', textAlign: 'center'
+        }}>
+          <button 
+            onClick={toggleTheme} 
+            className="btn btn-secondary"
+            style={{ 
+              background: 'transparent', border: '1px solid var(--glass-border)', 
+              color: 'var(--color-on-surface-variant)', gap: 'var(--space-2)',
+              fontSize: 'var(--font-size-xs)', padding: 'var(--space-2) var(--space-4)',
+              margin: '0 auto', display: 'flex', alignItems: 'center'
+            }}
+          >
+            {theme === 'dark' ? <Sun size={14} /> : <Moon size={14} />}
+            {theme === 'dark' ? 'Modo Claro' : 'Modo Oscuro'}
+          </button>
+        </div>
       </div>
     </div>
   );

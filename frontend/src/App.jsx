@@ -49,7 +49,7 @@ function App() {
   if (!ready) return null;
 
   // Not authenticated → Login
-  if (!user) return <Login onLogin={setUser} />;
+  if (!user) return <Login onLogin={setUser} theme={theme} toggleTheme={toggleTheme} />;
 
   const handleLogout = () => {
     api.logout();
