@@ -1,9 +1,0 @@
-/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/encoding_index_simpchinese-97fe559f8d65e017.d: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs
-
-/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libencoding_index_simpchinese-97fe559f8d65e017.rlib: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs
-
-/Users/cbailey/Documents/Proyectos/MultiserviceApp/target/debug/deps/libencoding_index_simpchinese-97fe559f8d65e017.rmeta: /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/lib.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030.rs /Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs
-
-/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/lib.rs:
-/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030.rs:
-/Users/cbailey/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs:
