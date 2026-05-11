@@ -113,6 +113,9 @@ body {
   color: var(--color-on-surface);
   line-height: 1.5;
   overflow-x: hidden;
+  /* Native App Feel */
+  overscroll-behavior-y: none;
+  padding-top: env(safe-area-inset-top);
 }
 
 a { color: var(--color-primary-light); text-decoration: none; }
@@ -230,6 +233,9 @@ a:hover { color: var(--color-primary); }
   right: 0;
   z-index: 90;
   transition: left var(--transition-base);
+  /* Safe Area for Mobile */
+  padding-top: env(safe-area-inset-top);
+  height: calc(var(--header-height) + env(safe-area-inset-top));
 }
 
 .header-left {
@@ -377,10 +383,10 @@ a:hover { color: var(--color-primary); }
 
 /* Main Content */
 .main-content {
-  margin-top: var(--header-height);
+  margin-top: calc(var(--header-height) + env(safe-area-inset-top));
   padding: var(--space-8);
   flex: 1;
-  min-height: calc(100vh - var(--header-height));
+  min-height: calc(100vh - var(--header-height) - env(safe-area-inset-top));
   margin-left: var(--sidebar-width);
 }
 
