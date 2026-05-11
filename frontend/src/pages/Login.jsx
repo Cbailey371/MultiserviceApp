@@ -25,64 +25,67 @@ export default function Login({ onLogin }) {
     <div style={{
       minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center',
       background: 'var(--color-background)',
-      backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(59,130,246,0.08) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(99,102,241,0.08) 0%, transparent 50%)',
+      backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(59,130,246,0.05) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(99,102,241,0.05) 0%, transparent 50%)',
     }}>
       <div className="glass-card" style={{
-        width: 420, padding: 'var(--space-10)',
-        background: 'rgba(29, 32, 39, 0.9)',
+        width: 400, padding: 'var(--space-10)',
+        background: 'rgba(29, 32, 39, 0.7)',
+        backdropFilter: 'blur(12px)',
+        border: '1px solid rgba(255, 255, 255, 0.05)',
       }}>
         <div style={{ textAlign: 'center', marginBottom: 'var(--space-8)' }}>
           <div style={{
-            width: 60, height: 60, margin: '0 auto var(--space-4)',
+            width: 64, height: 64, margin: '0 auto var(--space-5)',
             background: 'linear-gradient(135deg, var(--color-primary), var(--color-secondary))',
             borderRadius: 'var(--radius-lg)', display: 'flex',
             alignItems: 'center', justifyContent: 'center',
-            fontSize: '1.5rem', fontWeight: 700, color: 'white',
+            fontSize: '1.75rem', fontWeight: 800, color: 'white',
+            boxShadow: '0 10px 20px -5px rgba(59, 130, 246, 0.5)',
           }}>MS</div>
           <h1 style={{
-            fontSize: 'var(--font-size-xl)', fontWeight: 700,
-            background: 'linear-gradient(135deg, var(--color-primary-light), var(--color-primary))',
-            WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
+            fontSize: 'var(--font-size-2xl)', fontWeight: 800,
+            color: 'white', letterSpacing: '-0.025em',
+            marginBottom: 'var(--space-1)',
           }}>MultiService Pro</h1>
-          <p style={{ color: 'var(--color-outline)', fontSize: 'var(--font-size-sm)', marginTop: 'var(--space-1)' }}>
-            Gestión de Mantenimiento Multidisciplinario
+          <p style={{ color: 'var(--color-on-surface-variant)', fontSize: 'var(--font-size-sm)', fontWeight: 500 }}>
+            Acceso al Sistema de Gestión
           </p>
         </div>
 
         <form onSubmit={handleSubmit}>
           {error && (
             <div style={{
-              background: 'rgba(244, 63, 94, 0.1)', border: '1px solid rgba(244, 63, 94, 0.3)',
-              borderRadius: 'var(--radius-sm)', padding: 'var(--space-3)',
-              marginBottom: 'var(--space-5)', fontSize: 'var(--font-size-sm)', color: 'var(--color-error)',
-            }}>⚠️ {error}</div>
+              background: 'rgba(239, 68, 68, 0.1)', border: '1px solid rgba(239, 68, 68, 0.2)',
+              borderRadius: 'var(--radius-md)', padding: 'var(--space-3)',
+              marginBottom: 'var(--space-6)', fontSize: 'var(--font-size-sm)', color: '#f87171',
+              display: 'flex', alignItems: 'center', gap: 'var(--space-2)'
+            }}><span>⚠️</span> {error}</div>
           )}
 
-          <div className="form-group">
-            <label className="form-label">Correo Electrónico</label>
+          <div className="form-group" style={{ marginBottom: 'var(--space-5)' }}>
+            <label className="form-label" style={{ color: 'var(--color-on-surface-variant)', fontWeight: 600 }}>Correo Electrónico</label>
             <input className="form-input" type="email" value={email}
-              onChange={e => setEmail(e.target.value)} placeholder="admin@multiservice.com" required />
+              onChange={e => setEmail(e.target.value)} placeholder="tu@correo.com" required 
+              style={{ background: 'rgba(0,0,0,0.2)', height: '48px' }}
+            />
           </div>
-          <div className="form-group">
-            <label className="form-label">Contraseña</label>
+          <div className="form-group" style={{ marginBottom: 'var(--space-6)' }}>
+            <label className="form-label" style={{ color: 'var(--color-on-surface-variant)', fontWeight: 600 }}>Contraseña</label>
             <input className="form-input" type="password" value={password}
-              onChange={e => setPassword(e.target.value)} placeholder="••••••••" required />
+              onChange={e => setPassword(e.target.value)} placeholder="••••••••" required 
+              style={{ background: 'rgba(0,0,0,0.2)', height: '48px' }}
+            />
           </div>
 
-          <button className="btn btn-primary btn-lg" type="submit"
-            disabled={loading} style={{ width: '100%', justifyContent: 'center', marginTop: 'var(--space-4)' }}>
-            {loading ? '⏳ Iniciando sesión...' : '🔐 Iniciar Sesión'}
+          <button className="btn btn-primary" type="submit"
+            disabled={loading} style={{ 
+              width: '100%', justifyContent: 'center', height: '50px', 
+              fontSize: 'var(--font-size-base)', fontWeight: 600,
+              boxShadow: '0 4px 12px rgba(59, 130, 246, 0.3)',
+            }}>
+            {loading ? '⏳ Iniciando...' : 'Iniciar Sesión'}
           </button>
         </form>
-
-        <div style={{
-          marginTop: 'var(--space-6)', paddingTop: 'var(--space-4)',
-          borderTop: '1px solid var(--glass-border)', textAlign: 'center',
-        }}>
-          <p style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-outline)' }}>
-            Demo: admin@multiservice.com / Admin2026!
-          </p>
-        </div>
       </div>
     </div>
   );
