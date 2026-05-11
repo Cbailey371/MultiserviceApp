@@ -522,6 +522,46 @@ a:hover { color: var(--color-primary); }
 }
 ::-webkit-scrollbar-thumb:hover { background: #475569; }
 
+/* === PWA & Mobile Optimizations === */
+html, body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+input, textarea {
+  user-select: text;
+}
+
+.btn, .nav-item, .tab-btn {
+  min-height: 44px; /* Apple's touch target standard */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: var(--space-4);
+  }
+  
+  .glass-card {
+    padding: var(--space-4) !important;
+  }
+  
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
+  }
+  
+  .header-search {
+    width: 100% !important;
+  }
+  
+  .header-actions {
+    gap: var(--space-4);
+  }
+}
+
 /* === Utilities === */
 .text-right { text-align: right; }
 .font-bold { font-weight: 600; }
