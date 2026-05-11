@@ -48,9 +48,6 @@ function App() {
 
   if (!ready) return null;
 
-  // Not authenticated → Login
-  if (!user) return <Login onLogin={setUser} theme={theme} toggleTheme={toggleTheme} />;
-
   const handleLogout = () => {
     api.logout();
   };
@@ -58,6 +55,9 @@ function App() {
   const toggleTheme = () => {
     setTheme(prev => prev === 'dark' ? 'light' : 'dark');
   };
+
+  // Not authenticated → Login
+  if (!user) return <Login onLogin={setUser} theme={theme} toggleTheme={toggleTheme} />;
 
   const navItems = [
     { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
